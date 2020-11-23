@@ -1,0 +1,131 @@
+*{
+
+scrollbar-width: 100px;
+}
+
+.SitiosSugeridos{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    display: grid;
+    padding: 0%;    
+    
+
+    
+
+
+}
+
+.card-body-1{  grid-column: 1;
+    grid-row: 1;
+    height:400px;
+}
+
+.Primero{
+    border: 1px solid black;
+    grid-column: 1;
+    grid-row: 1;
+    height:400px;
+
+
+
+
+}
+.Segundo{
+    border: 1px solid black;
+    grid-row: 1;
+    grid-column: 2;
+    height:400px;
+}
+
+.Tercero{
+    border: 1px solid black;
+    grid-row: 1;
+    grid-column: 3;
+    height:400px;
+}
+
+
+.Cuatro{
+    border: 1px solid black;
+    grid-row: 2;
+    grid-column: 1;
+    height:400px;
+ 
+}
+
+.Cinco{
+    border: 1px solid black;
+    grid-row: 2;
+    grid-column: 2;
+    height:400px;
+ 
+}
+
+.Seis{
+    border: 1px solid black;
+    grid-row: 2;
+    grid-column: 3;
+    height:400px;
+   
+}
+.card-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.enlace{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-right: 10px;
+  text-orientation: upright;
+    
+}
+.enlace2{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 70px;
+  text-orientation: upright;
+    
+}
+.enlace3{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 45px;
+  text-orientation: upright;
+    
+}
+.enlace4{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 45px;
+  text-orientation: upright;
+    
+}
+.enlace5{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 45px;
+  text-orientation: upright;
+    
+}
+
+.enlace6{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 45px;
+  text-orientation: upright;
+    
+}
+

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    border: 1px solid #c3c3c3;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    position: relative;
+    width: 30%;
+    
+   
+    background-position:left;
+
+}   
+.rounded-circle{
+    position: relative;
+    display: flex;
+    border: 1px solid #c3c3c3;
+    display: block;
+    flex-wrap: wrap;
+    grid: 100%;
+    margin-left: 15%;
+    position: relative;
+    background-color: transparent;
+
+
+}
