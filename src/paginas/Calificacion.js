@@ -19,7 +19,7 @@ export const Calificacion = () => {
     <option value="3">Escaleras Electricas</option>
   </select>
   <div  className="Sitio">
-    <input type="text"  placeholder="Dinos que opinas sobre el lugar"></input>
+    <input type="text"  placeholder="Dinos que opinas sobre el lugar" style={{width:'450px', height:'35px'}}></input>
     </div>
   </form>
   
